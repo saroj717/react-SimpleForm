@@ -18,3 +18,9 @@ class SimpleForm extends React.Component {
     return <input name="name" value={name} onChange={this.handleChange}/>
   }
 }
+
+
+
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<SimpleForm/>);
